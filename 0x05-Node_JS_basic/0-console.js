@@ -1,8 +1,10 @@
-//In the file 0-console.js, create a function named displayMessage that prints in STDOUT the string argument.
+/**
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ * @author david odelana
+ */
+const displayMessage = (msg) => {
+  console.log(msg);
+};
 
-
-//function to  print a string to STDOUT
-const displayMessage = (message) => {
-    console.log(message);
-}
 module.exports = displayMessage;
