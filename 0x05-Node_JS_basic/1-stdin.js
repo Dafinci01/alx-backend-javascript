@@ -1,6 +1,5 @@
-//proces stdout.write to display to the screen
-process.stdout.write('Welcome to Alx, what is your name?\n');
-//process stdin.on to read and receive input
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
+
 process.stdin.on('readable', () => {
   const chunk = process.stdin.read();
 
